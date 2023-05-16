@@ -8,8 +8,8 @@ function buttonpressed(value) {
 
 function reset() {
     result.value = "";
-    user.value = 0;
-    computer.value = 0;
+    user.value = "";
+    computer.value = "";
 }
 
 function play(value) {
