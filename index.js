@@ -6,9 +6,10 @@ function buttonpressed(value) {
     play(value);
 }
 
-function reset(value) {
+function reset() {
     result.value = "";
-    user.value, computer.value = Number(0);
+    user = 0;
+    computer = 0;
 }
 
 function play(value) {
